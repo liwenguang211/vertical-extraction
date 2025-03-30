@@ -1,4 +1,4 @@
-f
+
 <launch>
 
   <rosparam command="load" file="$(find verticalDetector)/config/config_vertical feature.yaml" />
