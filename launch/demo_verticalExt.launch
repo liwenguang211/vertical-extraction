@@ -1,1 +1,15 @@
 f
+<launch>
+
+  <rosparam command="load" file="$(find verticalDetector)/config/config_vertical feature.yaml" />
+
+
+  <node
+		pkg="verticalDetector"
+		type="verticalExt_demo"
+		name="verticalExt_demo"
+		output="screen"
+	/>
+  <param name="result_path" type="string" value = "/home/shinva/mappingData/"/>
+  <param name="pointCloudsPath" type="string" value = "/home/shinva/mappingData/GlobalMap7.0.pcd"/>
+</launch>
