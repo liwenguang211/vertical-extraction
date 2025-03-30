@@ -1,0 +1,36 @@
+# pre process
+ds_size: 0.4
+maximum_corner_num: 100
+
+# key points
+plane_detection_thre: 0.01
+plane_merge_normal_thre: 0.1
+plane_merge_dis_thre: 0.3
+voxel_size: 2
+voxel_init_num: 10
+proj_image_resolution: 0.5
+proj_dis_min: 0
+proj_dis_max: 5
+corner_thre: 10
+
+
+#vertical extraction
+effective_count:  2     /* effective voxel point size */
+pole_count:  5          /* effective vertical count */
+surround_count:  4      /* effective surround height count */
+stand_out_count:  15    /* sum number of pole stand out of the surroundings */
+search_radius:  3      /* search radius */
+
+# candidate search
+skip_near_num: 50
+candidate_num: 50
+sub_frame_num: 10
+vertex_diff_threshold: 0.5
+rough_dis_threshold: 0.01
+normal_threshold: 0.2
+dis_threshold: 0.5
+icp_threshold: 0.4
+
+
+
+
