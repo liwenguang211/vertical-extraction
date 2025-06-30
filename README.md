@@ -53,9 +53,11 @@ source deve/setup.bash
 roslaunch verticalDetector demo_verticalExt.launch
 ```
 
+# **Data sets**
+You can find the origin data sets.链接:https://pan.baidu.com/s/1US5X3wXiONhiTy4JdYjtgw?pwd=7777 提取码:7777 复制这段内容后打开百度网盘手机App，操作更方便哦
 
 # **Contact Us**
-We are still working on improving the performance and reliability of our codes. For any technical issues, please contact us via email Chongjian Yuan < ycj1ATconnect.hku.hk >, Jiarong Lin < ziv.lin.ljrATgmail.com >.
+We are still working on improving the performance and reliability of our codes. For any technical issues, please contact us via email Wenguang Li < liwenguang211@126.com >, Jiying Ren < sdu_rjy@163.com >.
 
 
 
